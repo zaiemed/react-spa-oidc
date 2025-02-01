@@ -53,8 +53,8 @@ export const msalConfig = {
  */
 export const protectedResources = {
     apiTodoList: {
-        todoListEndpoint: 'http://localhost:5000/api/todolist',
-        dashboardEndpoint: 'http://localhost:5000/api/dashboard',
+        todoListEndpoint: 'http://todolistnodeapi.boclab.com/api/todolist',
+        dashboardEndpoint: 'http://todolistnodeapi.boclab.com/api/dashboard',
         scopes: ['api://5b4e3afb-5788-4ce1-9a20-026557a1b6ca/access_via_approle_assignments'],
     },
 };
